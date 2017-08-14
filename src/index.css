@@ -182,10 +182,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 400px;
-	/*left: 68%;*/
 	right: 3%;
   	top: 24%;
-	height: 370px;
+	height: 307px;
 	border: 4px solid black;
 	background-color: lavender;
 }
@@ -320,9 +319,10 @@ body {
 #post-form-btn {
 	position: relative;
 	display: flex;
-	margin: 0 auto;
-	width: 100px;
-	padding: 10px;
+	font-size: 24px;
+	left: 45%;
+	background-color: cornflowerblue;
+	font-family: 'Fjalla One', sans-serif;
 }
 
 .logout-button {
@@ -330,8 +330,8 @@ body {
 	font-size: 25px;
 	left: 79%;
 	top: 100px;
-	background-color: lavender;
-	font-family: 'Aclonica', sans-serif;
+	background-color: cornflowerblue;
+	font-family: 'Fjalla One', sans-serif;
 }
 
 #comment-form {
@@ -351,6 +351,7 @@ body {
 	position: relative;
 	display: flex;
 	font-family: 'Fjalla One', sans-serif;
+	margin-bottom: 7px;
 }
 
 #comment-name {
@@ -379,7 +380,12 @@ body {
 	text-decoration: underline;
 }
 
-
+.comment-wrap {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 
 

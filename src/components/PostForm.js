@@ -106,9 +106,9 @@ class PostForm extends Component {
 						<input id="post-field" type="text" name="location" value={ this.state.locationValue } onChange={ this.handleLocationChange.bind(this) }/></li>
 
 						<li className="post-form-list-item">Go On:
-						<input id="post-field-description" rows="5" columns="10" type="text" name="content" value={ this.state.contentValue } onChange={ this.handleContentChange.bind(this) }/></li>
+						<input id="post-field-description" type="text" name="content" value={ this.state.contentValue } onChange={ this.handleContentChange.bind(this) }/></li>
 					</label>
-					<input id="post-form-btn" type="submit" value="Submit" />
+					<input id="post-form-btn" type="submit" value="Submit"/>
 				</form>
 			</div>
 		)

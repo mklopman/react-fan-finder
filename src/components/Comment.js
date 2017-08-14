@@ -6,14 +6,30 @@ class Comment extends Component {
 		super(props);
 	}
 
+	componentDidMount() {
+		this.renderMessages();
+	}
+		// <span>{this.props.data.name}: </span>
+		// 		</div>
+		// 		<div className="user-comment">{this.props.data.message}</div>
+
+	renderMessages(){
+		return this.props.messages.map((message, index) => {
+			return(
+				<div key={index}>
+						<p>{message.name}: {message.message}</p>
+				</div>
+				)
+		})
+	}
+
 	render() {
 		console.log(this.props)
 		return (
 			<div className="comment-wrap">
 				<div className="user-info">
-					<span>{this.props.data.name}</span>
+				{this.renderMessages()}
 				</div>
-				<div className="user-comment">The message should appear just here: {this.props.data.message}</div>
 			</div>
 		)
 	}
