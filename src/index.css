@@ -1,0 +1,406 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('../src/logos-wallpaper.png');
+
+}
+
+/*.posts-container {
+	position: relative;
+*/	/*top: -420px;*/
+/*}*/
+
+
+.post-wrap {
+	position: relative;
+	margin: 10px 5px 15px 20px;
+	border: 4px solid black;
+	height: 200px;
+	width: 60vw;
+	text-align: center;
+	padding-top: 20px;
+  	background-color: lavender;
+}
+
+.fan-finder-header {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-size: 100px;
+	font-family: 'Shrikhand', cursive;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px 5px gold;
+}
+
+.login-form {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	height: 325px;
+	margin: 0 auto;
+	background-color: lavender;
+	border: 1px solid black;
+	border-radius: 25%;
+}
+
+.form-buttons {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 90px;
+	margin: 0 auto;
+}
+
+.login-form-buttons {
+	font-size: 20px;
+	margin-top: 10px;
+	font-family: 'Capriola', sans-serif;
+	width: 100px;
+	background-color: cornflowerblue;
+
+}
+
+#login-password {
+	position: relative;
+	display: flex;
+	width: 200px;
+	height: 22px;
+	font-size: 16px;
+	font-family: 'Capriola', sans-serif;
+}
+
+#login-email {
+	position: relative;
+	display: flex;
+	left: 10%;
+	width: 170px;
+	height: 22px;
+	font-size: 16px;
+	font-family: 'Capriola', sans-serif;
+}
+
+.signup-form {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	height: 450px;
+	margin: 0 auto;
+	background-color: lavender;
+	border: 1px solid black;
+	border-radius: 25%;
+	top: 50px;
+}
+
+.signup-official-form {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	font-family: 'Capriola', sans-serif;
+}
+
+.signup-header {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+	font-family: 'Capriola', sans-serif;
+	margin-bottom: 8px;
+}
+
+.signup-labels {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	font-family: 'Capriola', sans-serif;
+	font-size: 20px;
+}
+
+.signup-form-buttons {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 90px;
+	margin: 0 auto;
+}
+
+.signup-form-button {
+	font-size: 20px;
+	margin-top: 10px;
+	font-family: 'Capriola', sans-serif;
+	width: 100px;
+	background-color: cornflowerblue;
+}
+
+#signup-name {
+	position: relative;
+	display: flex;
+	width: 200px;
+	height: 22px;
+	font-size: 16px;
+	font-family: 'Capriola', sans-serif;
+	margin: 0 auto;
+}
+
+#signup-email {
+	position: relative;
+	display: flex;
+	width: 200px;
+	height: 22px;
+	font-size: 16px;
+	font-family: 'Capriola', sans-serif;
+	margin: 0 auto;
+}
+
+#signup-password {
+	position: relative;
+	display: flex;
+	width: 200px;
+	height: 22px;
+	font-size: 16px;
+	font-family: 'Capriola', sans-serif;
+	margin: 0 auto;
+}
+
+#signup_password_confirmation {
+	position: relative;
+	display: flex;
+	width: 200px;
+	height: 22px;
+	font-size: 16px;
+	font-family: 'Capriola', sans-serif;
+	margin: 0 auto;
+}
+
+
+.post-form-wrapper {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	/*left: 68%;*/
+	right: 3%;
+  	top: 24%;
+	height: 370px;
+	border: 4px solid black;
+	background-color: lavender;
+}
+
+.label {
+	display: flex;
+	flex-direction: column;
+	font-size: 24px;
+	align-items: center;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#post-field {
+	width: 200px;
+	height: 25px;
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-top: 2px;
+}
+
+#post-field-description {
+	width: 200px;
+	height: 25px;
+	font-size: 16px;
+	margin-bottom: 5px;
+	margin-top: 2px;
+}
+
+.post-form-list-item {
+	list-style-type: none;
+	padding-right: 10px;
+}
+
+.official-login {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.login-labels {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+}
+
+.login-header {
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-family: 'Capriola', sans-serif;
+}
+
+.user-info {
+	padding: 5px;
+	margin-top: -5px;
+	font-family: 'Tauri', sans-serif;
+}
+
+.sports-bar-link {
+	position: relative;
+	left: 40%;
+	top: -10px;
+}
+
+.user-post {
+	font-family: 'Tauri', sans-serif;
+	margin-bottom: 5px;
+}
+
+.post-name {
+	position: relative;
+	font-size: 20px;
+	padding-right: 5px;
+}
+
+.post-team {
+	position: relative;
+	font-size: 20px;
+	padding-right: 5px;
+}
+
+.post-event {
+	position: relative;
+	font-size: 20px;
+
+}
+
+.user-name-header {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	font-family: 'Carter One', cursive;
+	margin-bottom: -15px;
+}
+
+.message-board {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	font-size: 20px;
+	margin-bottom: -32px;
+	font-family: 'Carter One', cursive;
+}
+
+.message-board-link {
+	position: relative;
+	top: -50px;
+	font-size: 40px;
+}
+
+.post-location {
+	position: relative;
+	font-size: 20px;
+}
+
+.post-date {
+	position: relative;
+	font-size: 20px;
+}
+
+.user-post {
+	font-size: 18px;
+}
+
+#post-form-btn {
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+	width: 100px;
+	padding: 10px;
+}
+
+.logout-button {
+	position: fixed;
+	font-size: 25px;
+	left: 79%;
+	top: 100px;
+	background-color: lavender;
+	font-family: 'Aclonica', sans-serif;
+}
+
+#comment-form {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.comment-button {
+	margin-bottom: 10px;
+	padding: 7px;
+	font-size: 16px;
+	background-color: cornflowerblue;
+}
+
+.comment-labels {
+	position: relative;
+	display: flex;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#comment-name {
+	margin-right: 7px;
+}
+
+#comment-comment {
+	margin-right: 2px;
+}
+
+#comment-submit {
+	font-size: 18px;
+}
+
+.sports-bar-link {
+	position: relative;
+	left: 300px;
+	font-family: 'Fjalla One', sans-serif;
+	text-decoration: none;
+	font-size: 24px;
+	color: gold;
+	text-shadow: 1px 1px 2px navy, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.sports-bar-link:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
