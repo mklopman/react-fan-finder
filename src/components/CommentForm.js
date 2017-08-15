@@ -23,7 +23,7 @@ class CommentForm extends Component {
 	}
 
 	formResponse(data){
-		console.log('in formResponse on form');
+		// console.log('in formResponse on form');
 		this.setState({data: data})
 		this.props.commentFormResponse(data)
 	}

@@ -22,9 +22,9 @@ class Post extends Component {
 	componentDidMount() {
 		$.get("http://localhost:3000/api/messages")
   		.done((data) => {
-  			console.log("in componentDidMount for Post");
-  			console.log("this.state.id:", this.state.id);
-  			console.log("data:", data);
+  			// console.log("in componentDidMount for Post");
+  			// console.log("this.state.id:", this.state.id);
+  			// console.log("data:", data);
 	        	this.setState({
 	        		messages: data.messages.filter(message => message.post_id === this.props.id)
 	        	})
@@ -46,7 +46,7 @@ class Post extends Component {
 	}
 
 	commentFormResponse(data){
-		console.log('data coming back from api', data)
+		// console.log('data coming back from api', data)
 		this.setState({data: data})
 	}
 

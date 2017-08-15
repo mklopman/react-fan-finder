@@ -16,11 +16,12 @@ body {
 	position: relative;
 	margin: 10px 5px 15px 20px;
 	border: 4px solid black;
-	height: 200px;
+	height: 300px;
 	width: 60vw;
 	text-align: center;
 	padding-top: 20px;
   	background-color: lavender;
+  	overflow: scroll;
 }
 
 .fan-finder-header {
@@ -281,9 +282,10 @@ body {
 	position: relative;
 	display: flex;
 	justify-content: center;
-	font-size: 40px;
-	font-family: 'Carter One', cursive;
+	font-size: 44px;
+	font-family: 'Francois One', sans-serif;
 	margin-bottom: -15px;
+	left: 15px;
 }
 
 .message-board {
@@ -293,7 +295,7 @@ body {
 	list-style-type: none;
 	font-size: 20px;
 	margin-bottom: -32px;
-	font-family: 'Carter One', cursive;
+	font-family: 'Francois One', sans-serif;
 }
 
 .message-board-link {

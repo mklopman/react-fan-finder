@@ -21,7 +21,7 @@ class Comments extends Component {
 	}
 
 	renderSingleCommentt(id) {
-		console.log('id :', id)
+		// console.log('id :', id)
 		$.get(`http://localhost:3000/api/messages/` + id)
 		.done((data) => {
 			return(

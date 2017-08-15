@@ -15,10 +15,10 @@ class Posts extends Component {
 	componentDidMount(){
 		//console.log("HI FROM COMPONENT DID MOUNT")
 		if (!this.state.posts.length) {
-			console.log(posts)
+
 			$.get("http://localhost:3000/api/posts")
 			.done((data) => {
-				console.log('data in componentDidMount for Posts:', data);
+				//console.log(this.state.posts);
 	        	this.setState(data)
 	    	});
 		}
@@ -42,6 +42,7 @@ class Posts extends Component {
 
 
 	render() {
+		console.log(this.state);
 		const posts = this.state.posts.map((post, i) => {
 		    	return(
 			      <div key={i}>
